@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hdlogo{
+    width: 90px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #014421;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+.client-btn {
+    width: 100%;
+    background-color: #fff; 
+    color: #014421; 
+    text-align: 20 px left;
+    padding: 14px 20px;
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.client-btn:hover {
+    background-color: #66ca6b;
+}
+
+.admin-btn {
+    width: 100%;
+    background-color: #fff; 
+    color: #014421; 
+    text-align: 20 px left;
+    padding: 14px 20px;
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.admin-btn:hover {
+    background-color: #66ca6b;
+}
+
+/*Search Container*/
+.search-container {
+    display: inline-block;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+}
+
+.search-container form {
+    margin-right: -182px;
+}
+
+.search-btn {
+    background-color: #fff; 
+    color: #014421; 
+    text-align: left; 
+    padding: 8px 40px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+    margin-right: 3px;
+    border: 2px solid #014421;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    font-weight: bold;
+}
+
+.search-btn:hover {
+    background-color: #66ca6b;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f9f9f9;
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+input, select { 
+    width: 100%; 
+    height: 2rem;
+    padding: 0px; 
+    margin-top: 5px; 
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+    cursor: text; 
+    padding-left: 5px;
+}
+
+/* Buttons */
+.approved {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.approved:hover {
+    background-color: #3e9140;
+}
+
+.cancelled {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+}
+
+.cancelled:hover {
+    background-color: #b70000;
+}
+
+.delete{
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+}
+
+.delete:hover {
+    background-color: #b70000;
+}
+.update {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.update:hover {
+    background-color: #3e9140;
+}
+
+/*ETO ANG AAYUSIN*/
+.add-doc-btn {
+    width: 100%;
+    background-color: #fff; 
+    color: #014421; 
+    text-align: 20 px left;
+    padding: 14px 20px;
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.add-doc-btn:hover {
+    background-color: #66ca6b;
+}
+
+.back-btn  {
+    width: 100%;
+    background-color: #fff; 
+    color: #014421; 
+    text-align: 20 px left;
+    padding: 14px 20px;
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.back-btn:hover {
+    background-color: #66ca6b;
+}
+h1 {
+    text-align: left;
+	position: absolute;
+	left: 15%;
+    color: #000;
+  }
+
+  .saveapp-btn {
+    width: 100%;
+    background-color: #fff; 
+    color: #014421; 
+    text-align: 20 px left;
+    padding: 14px 20px;
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 4px;
+    border: 2px solid #014421;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.saveapp-btn:hover {
+    background-color: #66ca6b;
+}
